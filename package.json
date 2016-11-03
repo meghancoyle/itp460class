@@ -1,0 +1,23 @@
+{
+  "name": "itp460class",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meghancoyle/itp460class.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meghancoyle/itp460class/issues"
+  },
+  "homepage": "https://github.com/meghancoyle/itp460class#readme",
+  "devDependencies": {
+    "grunt-contrib-cssmin": "^1.0.2"
+  }
+}
