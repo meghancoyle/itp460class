@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="300" height="200"></canvas><br><br>
+Slope: <input type = "text" name="Slope"><br><br><button type = "submit">Fire</button>
+    <script>
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+var x = document.getElementById('Slope');
+
+      context.beginPath();
+      context.moveTo(50, 200);
+      context.lineTo(250, 50);
+      context.stroke();
+    </script>
+  </body>
+</html>  
