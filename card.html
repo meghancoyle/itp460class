@@ -20,94 +20,69 @@
 	</head>
 
 	<body>
-	    <!-- navbar code, copy code to top of body -->
+		<div class='progression red'>
+			<div id="scroll-wrap">
 
-	    <!-- dropdown structures -->
-<!--<div class='absolute-container'>
-<div class='video-container'>
-
-		<iframe id='video-iframe' src="https://www.youtube.com/embed/A5P29MO0X-U" frameborder="0" allowfullscreen></iframe>
-
-</div>
-</div>-->
-<div class='progression red'>
-	<div id="scroll-wrap">
-
-		<div class="meter nostripes">
-			<span id='increment' style="width: 9%"></span>
-		</div>
-
-	</div>
-</div>
-</div>
-
-
-
-
-
-
-<div id='backHome-container'>
-<a href='explorations.html'><div id='backHome'></div></a>
-  Back to Explorations
-</div>
-
-
-<div class='left-arrow arrow'>
-<
-</div>
-
-<div class='right-arrow arrow'>
->
-</div>
-
-
-
-<div id="main">
-
-	<div class='container2'>
-		<div class='container2-top'>
-			<p class="bubble" id="text_bubble">Welcome to Spot It! Good Luck!</p>
-		</div>
-		<div class='container2-left'>
-
-			<div class="container" id="images">
-				<div id="buttons">
-					<button id="reset" onclick="clearCards()">Start Over</button>
-
-					<button id="draw1">Draw Card</button>
-				</div>
-
-				<div id='trash-it'>
-					<img id="trashcan" ondrop="dropTrash(event)" ondragover="allowDrop(event)" src="assets/trash.png">
-				</div>
-
-
-				<div id="monster_bar" ondrop="dropTrash(event)" ondragover="allowDrop(event)">
-					<img class="monster" id="image blackPom" draggable="true" ondragstart="drag(event)" src="assets/blackPom-min.png">
-					<img class="monster" id="image bwPom" image="bw" draggable="true" ondragstart="drag(event)" img="" src="assets/bwPom-min.png">
-					<img class="monster" id="image bluePom" image="blue" draggable="true" ondragstart="drag(event)" img="" src="assets/bluePom-min.png">
-					<img class="monster" id="image orangePom" image="orange" draggable="true" ondragstart="drag(event)" img="" src="assets/orangePom-min.png">
-					<img class="monster" id="image purplePom" image="purple" draggable="true" ondragstart="drag(event)" img="" src="assets/purplePom-min.png">
-					<img class="monster" id="image greenPom" image="green" draggable="true" ondragstart="drag(event)" img="" src="assets/greenPom-min.png">
-					<img class="monster" id="image redPom" image="red" draggable="true" ondragstart="drag(event)" img="" src="assets/redPom-min.png">
-
+				<div class="meter nostripes">
+					<span id='increment' style="width: 9%"></span>
 				</div>
 
 			</div>
 		</div>
-		<div class='container2-right'>
-			<div class="sortable container" id="cards">
-				<!-- filled in by card.js -->
+
+		<div id='backHome-container'>
+			<div id='backHome'>
+				<a href='explorations.html'></a>
+			</div>
+		  Back to Explorations
+		</div>
+
+
+		<div class='left-arrow arrow'>
+			<
+		</div>
+
+		<div class='right-arrow arrow'>
+			>
+		</div>
+
+		<div id="main">
+			<div class='container2'>
+				<div class='container2-top'>
+					<p class="bubble" id="text_bubble">Welcome to Spot It! Good Luck!</p>
+				</div>
+			<div class='container2-left'>
+				<div class="container" id="images">
+					<div id="buttons">
+						<button id="reset" onclick="clearCards()">Start Over</button>
+						<button id="draw1">Draw Card</button>
+					</div>
+
+					<div id='trash-it'>
+						<img id="trashcan" ondrop="dropTrash(event)" ondragover="allowDrop(event)" 
+						src="assets/trash.png">
+					</div>
+
+					<div id="monster_bar" ondrop="dropTrash(event)" ondragover="allowDrop(event)">
+						<img class="monster" id="image blackPom" draggable="true" ondragstart="drag(event)" src="assets/blackPom-min.png">
+						<img class="monster" id="image bwPom" image="bw" draggable="true" ondragstart="drag(event)" img="" src="assets/bwPom-min.png">
+						<img class="monster" id="image bluePom" image="blue" draggable="true" ondragstart="drag(event)" img="" src="assets/bluePom-min.png">
+						<img class="monster" id="image orangePom" image="orange" draggable="true" ondragstart="drag(event)" img="" src="assets/orangePom-min.png">
+						<img class="monster" id="image purplePom" image="purple" draggable="true" ondragstart="drag(event)" img="" src="assets/purplePom-min.png">
+						<img class="monster" id="image greenPom" image="green" draggable="true" ondragstart="drag(event)" img="" src="assets/greenPom-min.png">
+						<img class="monster" id="image redPom" image="red" draggable="true" ondragstart="drag(event)" img="" src="assets/redPom-min.png">
+					</div>
+				</div>
+			</div>
+
+			<div class='container2-right'>
+				<div class="sortable container" id="cards">
+					<!-- filled in by card.js -->
+				</div>
 			</div>
 		</div>
-	</div>
 
-
-
-
-	<div class='container2-video'>
-
-
+		<div class='container2-video'>
 		<div class='absolute-video-container'>
 
 			<div class="video-container">
